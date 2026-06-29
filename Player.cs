@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     public float inputHorizontal;
     public float velocity;
     public Transform groundCheck;
     public LayerMask layer;
 
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         
